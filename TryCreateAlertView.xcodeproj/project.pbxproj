@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BF2261D42D51DB2100A3A4B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2261CE2D51DB2100A3A4B9 /* Preview Assets.xcassets */; };
+		BF2261D52D51DB2100A3A4B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2261D02D51DB2100A3A4B9 /* Assets.xcassets */; };
+		BF2261D62D51DB2100A3A4B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2261D12D51DB2100A3A4B9 /* ContentView.swift */; };
+		BF2261D72D51DB2100A3A4B9 /* TryCreateAlertViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2261D22D51DB2100A3A4B9 /* TryCreateAlertViewApp.swift */; };
+		BF2261D92D51DCA900A3A4B9 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2261D82D51DCA900A3A4B9 /* CustomAlert.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BF2261BD2D51DAFF00A3A4B9 /* TryCreateAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryCreateAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2261CE2D51DB2100A3A4B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF2261D02D51DB2100A3A4B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF2261D12D51DB2100A3A4B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF2261D22D51DB2100A3A4B9 /* TryCreateAlertViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryCreateAlertViewApp.swift; sourceTree = "<group>"; };
+		BF2261D82D51DCA900A3A4B9 /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BF2261BF2D51DAFF00A3A4B9 /* TryCreateAlertView */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TryCreateAlertView;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BF2261BA2D51DAFF00A3A4B9 /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		BF2261B42D51DAFF00A3A4B9 = {
 			isa = PBXGroup;
 			children = (
-				BF2261BF2D51DAFF00A3A4B9 /* TryCreateAlertView */,
+				BF2261D32D51DB2100A3A4B9 /* TryCreateAlertView */,
 				BF2261BE2D51DAFF00A3A4B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,26 @@
 				BF2261BD2D51DAFF00A3A4B9 /* TryCreateAlertView.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BF2261CF2D51DB2100A3A4B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF2261CE2D51DB2100A3A4B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF2261D32D51DB2100A3A4B9 /* TryCreateAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				BF2261D22D51DB2100A3A4B9 /* TryCreateAlertViewApp.swift */,
+				BF2261D12D51DB2100A3A4B9 /* ContentView.swift */,
+				BF2261D82D51DCA900A3A4B9 /* CustomAlert.swift */,
+				BF2261D02D51DB2100A3A4B9 /* Assets.xcassets */,
+				BF2261CF2D51DB2100A3A4B9 /* Preview Content */,
+			);
+			path = TryCreateAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +84,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BF2261BF2D51DAFF00A3A4B9 /* TryCreateAlertView */,
 			);
 			name = TryCreateAlertView;
 			packageProductDependencies = (
@@ -109,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2261D42D51DB2100A3A4B9 /* Preview Assets.xcassets in Resources */,
+				BF2261D52D51DB2100A3A4B9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2261D92D51DCA900A3A4B9 /* CustomAlert.swift in Sources */,
+				BF2261D62D51DB2100A3A4B9 /* ContentView.swift in Sources */,
+				BF2261D72D51DB2100A3A4B9 /* TryCreateAlertViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
